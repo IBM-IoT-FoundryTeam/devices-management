@@ -49,13 +49,18 @@ Please indicate devices list for deletion: data/devlist.csv
 		 - auth-key - API key (required)
 		 - auth-token - API key token (required)
 	 2. The application configuration file must be in the following format (replace with your id, key, token, without the quote symbols):
-> [application]
-org="your-organization-id"
-id="your-app-id"
-type=standalone
-auth-method=apikey
-auth-key="your-key"
-auth-token="your-token"
+
+		(see applications.cfg file for example)
+		   ```
+		   [application]
+		   org="your-organization-id"
+		   id="your-app-id"
+		   type=standalone
+		   auth-method=apikey
+		   auth-key="your-key"
+		   auth-token="your-token"
+		   ```
+
 
  - File format of devices list
 	 1. Should be csv format.
